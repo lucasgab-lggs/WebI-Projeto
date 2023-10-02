@@ -12,7 +12,7 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styles.css">
         <!-- Font Awesome -->
         <link 
             rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
@@ -37,7 +37,7 @@
                     </button>
                 </div>
             </form>
-            <form id="edit-form">
+            <form id="edit-form"class="hide" >
                 <p>Edite a tarefa:</p>
                 <div class="form-control">
                     <input type="text" id="edit-input">
@@ -67,8 +67,20 @@
                 </div>
             </div>
             <div id="todo-list">
-                <div class="todo">
+                <div class="todo done">
                     <h3>Placeholder</h3>
+                    <button class="finish-todo">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                    <button class="edit-todo">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+                    <button class="remove-todo">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="todo">
+                    <h3>Placeholder2</h3>
                     <button class="finish-todo">
                         <i class="fa-solid fa-check"></i>
                     </button>
